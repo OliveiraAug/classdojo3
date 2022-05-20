@@ -1,0 +1,10 @@
+{
+  "name": "classdojo3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Augusto Oliveira <augustoo@edu.univali.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
