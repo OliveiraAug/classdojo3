@@ -9,5 +9,6 @@ router.get('/', (req,res)=>{
 
 router.use('/dashboard', dashboardRouter)
 router.use('/login', loginRouter)
+router.use('/modulo', loginRouter)
 
 module.exports = router;
