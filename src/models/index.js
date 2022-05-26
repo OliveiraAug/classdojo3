@@ -8,4 +8,4 @@ const db = {
     sequelize
 }
 
-modulo.exports = db;
+module.exports = db;
