@@ -1,5 +1,5 @@
 module.exports = {
-    dialect: 'postgress',
+    dialect: 'postgres',
     host: 'localhost',
     port: 5432,
     database: 'classdojo3',

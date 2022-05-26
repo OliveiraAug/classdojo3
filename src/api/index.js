@@ -1,6 +1,7 @@
 const express = require('express');
 const dashboardRouter = require('./dashboard');
 const loginRouter = require('./login');
+const aulasRouter = require('./aulas');
 const router = express.Router();
 
 router.get('/', (req,res)=>{
@@ -9,6 +10,6 @@ router.get('/', (req,res)=>{
 
 router.use('/dashboard', dashboardRouter)
 router.use('/login', loginRouter)
-router.use('/modulo', loginRouter)
+router.use('/aulas', loginRouter)
 
 module.exports = router;
